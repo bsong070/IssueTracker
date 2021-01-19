@@ -27,6 +27,10 @@
 
 'use strict';
 
+var expect = require('chai').expect;
+var MongoClient = require('mongodb')
+var ObjectId = require('mongodb').ObjectId;
+
 const cors = require('cors');
 const fs = require('fs');
 const runner = require('../test-runner');
